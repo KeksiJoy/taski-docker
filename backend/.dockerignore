@@ -1,0 +1,21 @@
+# Файл .dockerignore для Django-проекта
+venv
+.git
+db.sqlite3 
+# Виртуальное окружение Python
+.env/
+.env.local
+*.env
+
+# Системные и IDE-файлы
+.gitignore
+.idea/
+.vscode/
+*.swp
+*.swo
+__pycache__/
+*.py[cod]
+
+
+
+
